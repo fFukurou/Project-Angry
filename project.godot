@@ -11,17 +11,22 @@ config_version=5
 [application]
 
 config/name="ProjectAngry"
-run/main_scene="res://scenes/level/level.tscn"
+run/main_scene="res://scenes/main/main.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
 SignalManager="*res://singletons/signal_manager.gd"
+ScoreManager="*res://singletons/score_manager.gd"
 
 [display]
 
 window/stretch/mode="canvas_items"
+
+[global_group]
+
+Cup=""
 
 [input]
 

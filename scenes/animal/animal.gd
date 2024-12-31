@@ -5,7 +5,7 @@ enum ANIMAL_STATE { READY, DRAG, RELEASE }
 
 const DRAG_LIM_MAX: Vector2 = Vector2(0, 60)
 const DRAG_LIM_MIN: Vector2 = Vector2(-60, 0)
-const IMPULSE_MULT: float = 20.0
+const IMPULSE_MULT: float = 13.0
 const IMPULSE_MAX: float = 1200.0
 
 

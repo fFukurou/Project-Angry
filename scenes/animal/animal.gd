@@ -37,8 +37,8 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta: float) -> void:
 	update(delta)
-	label.text = "%s\n" % ANIMAL_STATE.keys()[_state]
-	label.text += "%.1f, %.1f" % [_dragged_vector.x, _dragged_vector.y]
+	#label.text = "%s\n" % ANIMAL_STATE.keys()[_state]
+	label.text = "%.1f, %.1f" % [_dragged_vector.x, _dragged_vector.y]
 
 
 func get_impulse() -> Vector2:
